@@ -220,6 +220,10 @@ header {
     gap: 20px;
     max-width: 30%;
     text-align: center;
+    border: 1px solid rgb(234, 227, 227);
+    box-shadow: 10px 5px 5px rgb(240, 236, 236);
+    padding: 10px ;
+    
 }
 
 .features-card img {
@@ -236,9 +240,6 @@ header {
     gap: 30px;
 }
 
-/* #second-big-feature {
-    flex-direction: row-reverse;
-} */
 
 .feature-img img {
     width: 100%;
@@ -274,13 +275,16 @@ header {
     background: black;
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 35.jpeg);
     background-size: cover;
-    transition: 0.2s ease-out;
+    transition: all 0.2s ease-in-out;
     
 }
 
 .examples-card:hover {
-    box-shadow: 0 0 10px #888;
+   box-shadow: 0 0 10px #b0a7a7;
+   transform: scale(1.1);
+   border-radius: 10px;
 }
+
 
 .examples-card:nth-child(2) {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 34.jpeg);
@@ -354,8 +358,17 @@ footer {
 
 .subfooter-container {
     justify-content: center;
+    align-items: center;
     gap: 30px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+}
+
+.sub-footer-social-link {
+    gap: 30px;
+}
+
+.sub-footer-hover-link {
+    gap: 15px;
 }
 
 
