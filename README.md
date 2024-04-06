@@ -1,24 +1,27 @@
-# FlexBlog
-FlexBlog is a responsive blog project built with HTML and CSS, showcasing the power of Flexbox for creating dynamic layouts.
+# UX Research Toolkit Clone
+A responsive website clone built using HTML and CSS, inspired by a comprehensive UX research toolkit.
+
+# Purpose
+This website clone serves as a user research Swiss Army knife, offering a range of tools and features to support UX designers and researchers in understanding user behavior and preferences. From card sorting to other user research methodologies, our platform provides the resources needed to create intuitive and user-friendly designs.
 
 # Features
-Fully responsive design, adapting seamlessly to various screen sizes
-Utilizes Flexbox for flexible and intuitive layout management
-Clean and modern design for an engaging user experience
-Mobile-friendly design ensures optimal viewing on smartphones and tablets
+Card Sorting: Discover how people group and label information to inform your design decisions.
+
+Prototype tests:
+Discover how people navigate your Figma prototypes.etc 
+
+First click tests
+Test interaction with first click and navigation tests etc.
 
 # Usage
-To use FlexBlog, simply clone this repository to your local machine:
+To use flexi-responsive, simply clone this repository to your local machine:
+git clone https://github.com/Rahamat-prog/flexi-responsive-7.git Then, open the index.html file in your web browser to view the website.
 
-
-git clone https://github.com/Rahamat-prog/flexi-responsive-7.git
-Then, open the index.html file in your web browser to view the blog.
-
-# Contributing
-Contributions are welcome! If you'd like to improve FlexBlog, please fork the repository and create a pull request with your changes.
+# Credits
+This website clone was built following a tutorial on Coding Shuttle by Anuj Bhaiya. Credits to the creator for the original design and inspiration.
 
 # License
 This project is licensed under the MIT License.
 
 # Contact
-If you have any questions or suggestions about FlexBlog, feel free to contact the project maintainer at rahamatshaikhdeveloper@gmail.com
+If you have any questions or suggestions regarding this project, feel free to contact me rahamatshaikhdeveloper@gmail.com.
