@@ -21,11 +21,12 @@
         display: none;
     }
     
-    .active {
-        left: 0;
+
+    .nav-links.active {
+        left: 0%;
         display: block;
     }
-
+    
     .nav-links ul {
         flex-direction: column;
     }
@@ -45,15 +46,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
-    .nav-links {
-        display: none;
-    }
-
-    .active {
-        left: 0;
-        display: block;
-    }
 
     .header-section {
         flex-direction: column-reverse;
@@ -99,15 +91,6 @@
 
 @media screen and (max-width: 479px) {
 
-    .nav-links {
-        display: none;
-    }
-
-    .active {
-        left: 0;
-        display: block;
-    }
-
     .features-card  {
         min-width: 100%;
     }
@@ -144,9 +127,5 @@
         text-align: center;
     }
     
-    
-    /* .sub-footer-social-link {
-        flex-direction: column;
-    } 
-     */
+
 }
